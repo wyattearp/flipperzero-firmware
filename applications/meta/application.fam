@@ -49,6 +49,7 @@ App(
         "tetris_game",
         "arkanoid_game",
         "tictactoe_game",
+        "defcon_game",
     ],
 )
 

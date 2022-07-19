@@ -1,0 +1,10 @@
+App(
+    appid="defcon_game",
+    name="DEFCON(unofficial)",
+    apptype=FlipperAppType.GAME,
+    entry_point="defcon_game_app",
+    cdefines=["APP_DEFCON_GAME"],
+    requires=["gui"],
+    stack_size=1 * 1024,
+    order=20,
+)
